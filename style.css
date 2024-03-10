@@ -58,9 +58,10 @@ body {
 .current-info .others {
     display: flex;
     flex-direction: column;
-    padding: 7px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 14px;
     background: rgba(205, 165, 163, 0.15);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.7px);
     -webkit-backdrop-filter: blur(3.7px);
@@ -68,6 +69,30 @@ body {
 }
 
 .current-info .others .weather-item {
+    font-size: 18px;
     display: flex;
     justify-content: space-between;
+}
+
+.future-forcast {
+    padding: 25px;
+    position: fixed;
+    bottom:0;
+    display: flex;
+    color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* height:30vh; */
+    /* margin: 30px 30px; */
+    background: rgba(205, 165, 163, 0.15);
+    border-radius: 14px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(205, 165, 163, 0.35);
+}
+
+.future-forcast .weather-forcast {
+    display: flex;
 }
