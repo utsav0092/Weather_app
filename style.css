@@ -9,6 +9,65 @@
 body {
     background: url(bgback.jpg);
     background-repeat: no-repeat;
-    color: white;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
     font-family: 'poppins', sans-serif;
+}
+
+.container {
+    color: #ffff;
+    padding: 20px 70px;
+}
+
+.current-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container .time {
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.date-container #am-pm {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.date-container .date {
+    font-size: 30px;
+}
+
+.place-container {
+    margin-top: 12px;
+    text-align: end;
+}
+
+.place-container .time-zone {
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.place-container .country {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.current-info .others {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    background: rgba(205, 165, 163, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(205, 165, 163, 0.35);
+}
+
+.current-info .others .weather-item {
+    display: flex;
+    justify-content: space-between;
 }
