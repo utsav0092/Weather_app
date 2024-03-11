@@ -13,10 +13,10 @@ setInterval(() => {
     const date = time.getDate();
     const day = time.getDay();
     const hour = time.getHours();
-    const hoursIn12hrformat = hour >= 13 ? hour%12 : hour;
+    const hoursIn12Hrformat = hour >= 13 ? hour%12 : hour;
     const minutes = time.getMinutes();
     const ampm = hour >= 12 ? 'PM' : 'AM';
 
-    time.innerHTML = hoursIn12hrformat + ':' + minutes + ' * ' 
+    time.innerHTML = hoursIn12Hrformat + ':' + minutes + ' ' + `<span id="am-pm">${ampm}</span>`;
 
 }, 1000);

@@ -126,7 +126,7 @@ body {
     justify-self: center;
     align-items: center;
     margin: 0px 10px;
-    border: 1px solid slategrey;
+    border: 1px solid #ffff;
     border-radius: 14px;
     padding: 25px;
 }
@@ -153,4 +153,10 @@ body {
         align-items: none;
         overflow-y: scroll;
     }
+}
+
+.future-forcast .today {
+    padding: 52px 25px;
+    border: 1px solid #ffff;
+    border-radius: 14px;
 }
