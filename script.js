@@ -36,4 +36,8 @@ function getWeatherDate () {
             console.log(data);
     })
   })
+
+  function showeatherDate (data) {
+    
+  }
 }
